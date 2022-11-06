@@ -82,7 +82,7 @@ function getDetails(url){
 
 function showMovieDetails(data){
   main2.innerHTML = '';
-  const {title,original_language,release_date,poster_path,overview,vote_average,vote_count,genres,budget,revenue} = data;
+  const {title,original_language,runtime,release_date,poster_path,overview,vote_average,vote_count,genres,budget,revenue} = data;
   const detailsEl = document.createElement('div');
   detailsEl.classList.add('details');
   detailsEl.innerHTML = `
