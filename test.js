@@ -103,8 +103,8 @@ function showMovieDetails(data){
           <div class="release_container">
             <p class="release">Release Date: ${release_date}</p>
           </div>
-          <div class="origin_container">
-            <p class="origin">Origin: </p>
+          <div class="runtime_container">
+            <p class="runtime">Runtime: ${runtime} minutes</p>
           </div>
         </div>
           <div class="column2">
