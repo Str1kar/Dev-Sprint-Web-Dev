@@ -34,8 +34,7 @@ body{
 
 #top-rated,
 #popular,
-#upcoming,
-#contact {
+#upcoming{
   background:transparent;
   border:none;
   font-size: 20px;
@@ -43,10 +42,6 @@ body{
   cursor:pointer;
   padding:10px;
   border-radius:50px;
-}
-
-#contact{
-  margin-right: 30px;
 }
 
 #top-rated:hover,
